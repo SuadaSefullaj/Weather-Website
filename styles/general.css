@@ -1,0 +1,33 @@
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  background: linear-gradient(to bottom, rgb(43, 50, 178) 0%, rgb(20, 136, 204) 100%);
+}
+
+
+.location {
+  margin-bottom: 45px;
+  margin-left: 50px;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.weather-container {
+  padding-top:100px;
+  padding-bottom: 50px;
+}
+
+/* Small Screen */
+
+@media (max-width: 700px) and (min-width:400px) {
+
+   .location{
+    margin-top: 50px;
+    margin-left: 23px;
+   }
+}
+
+
+
+
